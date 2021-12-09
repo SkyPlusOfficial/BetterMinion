@@ -1,0 +1,15 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/SkyPlusOfficial/BetterMinion
+build-by-default: true
+branches:
+- main
+projects:
+  BetterMinion:
+    path: ""
+    libs:
+    - src: CortexPE/Commando/Commando
+      version: ^2.1.1
+    - src: Muqsit/InvMenu/InvMenu
+      version: ^4.1.1
+    - src: ifera-mc/ConfigUpdater/ConfigUpdater
+      version: ^1.2.0
+...
